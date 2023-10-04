@@ -18,7 +18,8 @@
 
 html, body {
     min-height: 100vh;
-    background-color: darkgrey;
+    background-color: darkgray;
+    font-family: var(--fonte1);
 }
 
 header {
@@ -29,24 +30,23 @@ header {
 }
 
 header > h1 {
-    padding: 50px;
+    padding-top: 50px;
     font-variant: small-caps;
     font-family: var(--fonte2);
     font-size: 10vw;
-
 }
 
-header > aside {
+header > p {
     padding-bottom: 50px;
 }
 
-a {
+header a, footer a {
     color: white;
     text-decoration: none;
     font-weight: bold;
 }
 
-a:hover {
+header a:hover, footer a:hover {
     text-decoration: underline;
 }
 
@@ -59,20 +59,37 @@ section {
     font-size: 3.5vw;
 }
 
+section > p {
+    padding-bottom: 2em;
+}
+
 section.normal {
     background-color: white;
     color: black;
 }
 
 section.imagem {
-    background-color: rgb(82, 82, 82);
+    background-color: rgb(51, 51, 51);
     color: white;
+    box-shadow: 6px 6px 13px 0px rgba(0, 0, 0, 0.479);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 section.imagem > p {
-    background-color: rgb(36, 35, 35);
+    background-color: rgba(0, 0, 0, 0.514);
     display: inline-block;
     padding: 5px;
+    text-shadow: 1px 1px 0px black;
+}
+
+section#img01 {
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+}
+
+section#img02 {
+    background-image: url('../imagens/background002.jpg');
 }
 
 footer {

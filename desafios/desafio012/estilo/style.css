@@ -29,15 +29,14 @@ header {
 }
 
 header > h1 {
-    padding-top: 8px;
+    padding-top: 50px;
     font-variant: small-caps;
     font-family: var(--fonte2);
     font-size: 10vw;
 }
 
 header > p {
-    padding-bottom: 10px;
-    font-size: 4px;
+    padding-bottom: 50px;
 }
 
 header a, footer a {
@@ -54,9 +53,9 @@ section {
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
-    padding-left: 10px;
+    padding-left: 30px;
     font-family: var(--fonte3);
-    font-size: 4vw;
+    font-size: 3.5vw;
 }
 
 section > p {
@@ -97,5 +96,4 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
-    font-size: 4px;
 }
